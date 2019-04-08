@@ -1,6 +1,7 @@
 import React from 'react';
 
 function HourlyStatus(props){
+    
     const { state } = props;
     if(!state) return null
     let weather = null
