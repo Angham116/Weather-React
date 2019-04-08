@@ -32,7 +32,10 @@ class Form extends Component{
     render(){
         return(
             <div className='home'>
+                <div>
                 <img src='https://www.amcharts.com/wp-content/themes/amcharts4/css/img/icons/weather/animated/rainy-1.svg'/>
+                <h3>Awesome Weather</h3>
+                </div>
                 <form onSubmit={this.handleSearch} className='form'>
                     <input name='city' type='text' onChange={this.handleCity} className='input--form'/>
                     <button className='search--form'>search</button>

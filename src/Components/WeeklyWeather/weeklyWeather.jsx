@@ -6,27 +6,25 @@ function Weekly(props){
  if(!state) return null
  else console.log(1111, state.forecast.forecastday);
  const forecast = state.forecast.forecastday;
-//  else{
-//      console.log(1111, state);
-    const array = forecast.map(item => {
-        
-        return(
-            <div key={Math.random()}>
-                <span>{item.day.maxtemp_c}</span>
-                <img src={item.day.condition.icon}/>
+
+const array = forecast.map(item => {
+    return(
+        <div key={Math.random()}>
+            <span>{item.day.maxtemp_c}</span>
+            <img src={item.day.condition.icon} alt='image of day weather state'/>
                 <span>{item.day.condition.text}</span>
                 <hr/>
             </div>
         )
     })
  
- return (
-    <div>
+    return (
         <div>
-            {array}
+            <div>
+                {array}
+            </div>
         </div>
-    </div>
- );
+    )
 }
 
 export default Weekly;
