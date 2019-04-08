@@ -1,10 +1,10 @@
 import React from 'react';
 
 function Weekly(props){
-//  console.log(99999, props);
+ 
  const { state } = props;
  if(!state) return null
- else console.log(1111, state.forecast.forecastday);
+ 
  const forecast = state.forecast.forecastday;
 
 const array = forecast.map(item => {
@@ -15,16 +15,10 @@ const array = forecast.map(item => {
                 <span>{item.day.condition.text}</span>
                 <hr/>
             </div>
-        )
+         )
     })
  
-    return (
-        <div>
-            <div>
-                {array}
-            </div>
-        </div>
-    )
+    return <div> {array} </div>
 }
 
 export default Weekly;
