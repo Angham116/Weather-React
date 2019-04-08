@@ -44,9 +44,7 @@ class Form extends Component{
                 <HourlyStatus state={this.state.hourlyState}/>
                 <WeeklyStatus state={this.state.WeeklyState}/>
             </div>
-        )
-    }
-
+        )}
 }
 
 export default Form;
