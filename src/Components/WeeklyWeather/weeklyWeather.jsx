@@ -10,6 +10,7 @@ function Weekly(props){
 const array = forecast.map(item => {
     return(
         <div key={Math.random()}>
+            <p>{item.date}</p>
             <span>{item.day.maxtemp_c}</span>
             <img src={item.day.condition.icon} alt='image of day weather state'/>
                 <span>{item.day.condition.text}</span>
