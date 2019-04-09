@@ -14,12 +14,14 @@ function CurrentWeather(props){
             <div className='currentWeather'>
                 <div className='currentWeather--img'>
                     <img src= {current.condition.icon} alt= 'current state'/>
+                    <span>{current.temp_c}°C</span>
                 </div>
                 <div className='currentWeather--state'>
                     <p className='locationName'>{location.name}</p>
-                    <span>{currentDate[0]}, {currentDate[2]} {currentDate[1]}</span>
-                    <span>Today is {current.condition.text}</span>
+                    <p>{currentDate[0]}, {currentDate[2]} {currentDate[1]}</p>
+                    <p>Today is {current.condition.text}</p>
                 </div>
+                <hr/>
             </div>
         )
      }
