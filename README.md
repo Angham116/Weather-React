@@ -28,6 +28,6 @@
   * React Js
   * Javascript
 ### Note: 
-  This is project still under modification.
+  This project still under modification.
 
  
