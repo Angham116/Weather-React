@@ -1,5 +1,6 @@
 # **Awesome Weather** 
-  ### Link: [Awesome Weather](https://awesome-weather.herokuapp.com/)
+  #### App Link: [Awesome Weather](https://awesome-weather.herokuapp.com/)
+  #### Initial Prototype: [Figma](https://www.figma.com/file/OJW3R2QToGjeyeYHfX9jGiqj/Weather-App?node-id=0%3A1)
   
 ### **Problem**
   * Existing applications for the weather are a bit complex.
@@ -28,3 +29,4 @@
   * Javascript
 
 
+ 
