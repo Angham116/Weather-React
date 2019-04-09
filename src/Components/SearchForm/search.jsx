@@ -4,7 +4,7 @@ function Search(props){
 
     return (
         <form onSubmit={props.handleSearch} onChange={props.handleCity} className='form'>
-            <input name='city' type='text'  className='input--form'/>
+            <input name='city' type='text'  className='input--form' required/>
             <button className='search--form'>search</button>
         </form>
     )
