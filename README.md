@@ -27,6 +27,7 @@
 
   * React Js
   * Javascript
-
+### Note: 
+  This is project still under modification.
 
  
